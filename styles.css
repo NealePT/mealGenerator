@@ -3,3 +3,32 @@ body {
   background-color: #0D1117;
   color: #F0F6FC;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mealContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 50%;
+}
+
+.containerTitles {
+  font-size: large;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.containerButton button {
+  padding: 14px 21px;
+  text-transform: uppercase;
+  font-size: 17px;
+  border-radius: 10px;
+  border-color: transparent;
+  background: rgb(247, 183, 65);
+  box-shadow: 2px 2px 1px #888888;
+  margin-bottom: 20px;
+}
