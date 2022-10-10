@@ -34,10 +34,12 @@ const createMeal = meal => {
           ${meal.strArea ? `<p><strong>Origin:</strong> ${meal.strArea}</p>` : ""}
           ${meal.strTags ? `<p><strong>Tags:</strong> ${meal.strTags.split(",").join(", &nbsp;")}</p>` : ""}
         </div>
-        <h5>Ingredients:</h5>
-        <ul>
-          ${ingredients.map((ingredient) => `<li>${ingredient}</li>`).join("")}
-        </ul>
+        <div class="ingredientsContainer">
+          <h5>Ingredients:</h5>
+          <ul>
+            ${ingredients.map((ingredient) => `<li>${ingredient}</li>`).join("")}
+          </ul>
+        </div>
 			</div>
       <h5>Instructions:</h5>
 			<div class="instructions">

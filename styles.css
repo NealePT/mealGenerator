@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .containerTitles {
@@ -41,12 +41,16 @@ body {
 .containerTags {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  padding: 40px 0px;
+  border-bottom: 2px solid #F0F6FC;
 }
 
 .instructions {
   font-size: 18px;
   line-height: normal;
+  border-bottom: 2px solid #F0F6FC;
+  padding: 0px 20px;
+  margin: 0px;
 }
 
 h5 {
@@ -67,4 +71,9 @@ h5 {
 .imagediv img {
   border-radius: 50%;
   height: 500px;
+}
+
+.ingredientsContainer {
+  border-bottom: 2px solid #F0F6FC;
+  padding-bottom: 40px;
 }
