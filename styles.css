@@ -1,6 +1,7 @@
 body {
   background-color: #0D1117;
   color: #F0F6FC;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .container {
   display: flex;
@@ -17,7 +18,6 @@ body {
 
 .containerTitles {
   font-size: large;
-  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
@@ -30,4 +30,29 @@ body {
   background: rgb(247, 183, 65);
   box-shadow: 2px 2px 1px #888888;
   margin-bottom: 20px;
+}
+
+.mealContainer h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.containerTags {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.instructions {
+  font-size: 18px;
+  line-height: normal;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+.videoWrapper {
+  display: flex;
+  justify-content: center;
 }
